@@ -40,7 +40,7 @@ import { MessagingModule } from '@messaging/messaging.module';
         MessageEntity,
         ChatMemberEntity,
       ],
-      synchronize: true,
+      // synchronize: true,
       // synchronize: process.env.NODE_ENV === 'production' ? false : true,
       logging: process.env.NODE_ENV === 'production' ? false : true,
       autoLoadEntities: true,
